@@ -1,0 +1,6 @@
+[mysqld]
+max_allowed_packet=33554432
+sql_mode=STRICT_ALL_TABLE
+ft_stopword_file=/srv/www/phabricator/resources/sql/stopwords.txt
+ft_min_word_len=3
+ft_boolean_syntax=' |-><()~*:""&^'
